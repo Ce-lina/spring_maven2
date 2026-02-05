@@ -14,10 +14,11 @@ public class DemoGithubApplication {
 
 }
 
-RestController
-	class HelloWorldController{
+@RestController
+class HelloWorldController {
+
 	@GetMapping("/")
-	public String sayHello(){
+	public String sayHello() {
 		return "Hello, World";
 	}
-	}
+}
